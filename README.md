@@ -36,3 +36,7 @@ The strategy returns at 1.6 performs better then the actual return of 1.5. These
 Adjusting both the training dataset and SMA inputs improved the performance, but the changes to the SMA input feature performed better. Changing the SMA input features window can affect how well the trading method performs. The SMA window controls how long the moving average computation takes and may have an impact on how sensitive the strategy is to the actual return. Hence it is not recommended to influence SMA input features.
 
 ## Evaluate a New Machine Learning Classifier
+![image](https://github.com/AthuraThava/Module_14_Challenge/assets/125240804/d1ffb1b4-6c0d-4839-a862-72e5f380e814)
+
+The base model, which uses a SMA short of 4, SMA long of 100, and a training dataset of three months, is the best strategy.
+
